@@ -1,6 +1,8 @@
 # RRC_Mech_lab_Xarm7_setup
 docs and steps to follow while setting up the arm for manipulations
 
+<img width="515" height="915" alt="image" src="https://github.com/user-attachments/assets/d4227295-ff21-4c97-a015-e03963c5162c" />
+
 ## hardware connections
 - For Physical Connection : Plug one end of an Ethernet cable into the LAN port on the xArm control box.
 - Plug the other end directly into your computer's Ethernet port (or via a compatible adapter).
