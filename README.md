@@ -1,2 +1,15 @@
 # RRC_Mech_lab_Xarm7_setup
 docs and steps to follow while setting up the arm for manipulations
+
+## hardware connections
+- Physical ConnectionPlug one end of an Ethernet cable into the LAN port on the xArm control box.
+- Plug the other end directly into your computer's Ethernet port (or via a compatible adapter).
+- Avoid intermediate routers or switches if you need low latency for development.
+- Turn on the xArm control box power switch and release the emergency stop. IP Configuration on Your ComputerFind the default controller IP address (typically 192.168.1.243), with the exact address printed on a sticker on the side of the control box).
+- Open your computer's network settings and set your IPv4 address manually to be on the same subnet (for example, if the arm is 192.168.1.243, set your PC to 192.168.1.10 in the IPv4 tab).
+- Set the Subnet Mask to 255.255.255.0. Disable any active proxy servers on your computer that might block local network traffic.
+- Verify the connection by opening a terminal or command prompt and typing ping followed by the arm's IP address. For official troubleshooting steps, check the UFACTORY Help Center.
+- Connecting via xArm StudioLaunch the xArm Studio software application on your computer.
+- Click Search Server or enter the control box IP address manually into the connection field.
+- Select the controller and click Connect to begin operating the robotic arm.
+- **Note** IPv4 manual and disable 802.1 security
