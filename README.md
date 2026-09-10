@@ -13,3 +13,10 @@ docs and steps to follow while setting up the arm for manipulations
 - Click Search Server or enter the control box IP address manually into the connection field.
 - Select the controller and click Connect to begin operating the robotic arm.
 - **Note** IPv4 manual and disable 802.1 security
+
+## Graphical Setup (NetworkManager)
+- Open your system Settings and navigate to the Network or Wi-Fi & Network panel.
+- Locate your wired Ethernet connection and click the Gear icon next to it.Select the IPv4 tab.Change the IPv4 Method from Automatic (DHCP) to Manual.
+- Add the following network parameters in the Address rows:Address: 192.168.1.10 (or any unique address from .2 to .254, except the arm's specific IP)
+- Netmask: 255.255.255.0Gateway: Leave blank or set to 192.168.1.1
+- Click Apply or Save, then turn the network interface off and back on to apply changes.
